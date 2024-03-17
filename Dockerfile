@@ -1,2 +1,2 @@
 FROM tomcat
-COPY /CICDartifact/target/CICDartifact.war /webapps
+COPY /var/lib/jenkins/workspace/pipelinecicd/CICDartifact/target/CICDartifact.war /webapps
