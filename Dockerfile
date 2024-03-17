@@ -1,2 +1,2 @@
 FROM tomcat
-CPY CICDartifact.war /webapps
+COPY CICDartifact.war /webapps
