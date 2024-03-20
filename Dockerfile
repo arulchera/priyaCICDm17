@@ -1,2 +1,2 @@
 FROM tomcat
-COPY /CICDartifact/target/newwarimg.war /webapps
+COPY newwarimg.war /webapps
